@@ -34,6 +34,35 @@
 		</nav>
 	</header>
 
+	<div class="section-container"> <!-- 슬라이드쇼 fade 나타나다-->
+		<div class="welcome-area"> <!-- 환영부분 나타나다-->
+			<div class="container"> <!-- 저기상단바 부1-->
+				<div class="image-slide fade"> <!-- 슬라이드쇼 fade 나타나다-->
+					<img src="image/case1.jpg"> <!-- 이미지를 불러온다 -->
+				</div>
+				<div class="image-slide fade">
+					<img src="image/case2.jpg">
+				</div>
+				<div class="image-slide fade">
+					<img src="image/case3.jpg">
+				</div>
+				<div class="image-slide fade">
+					<img src="image/case4.jpg">
+				</div>
+
+				<a class="image-prev" id="imagePrev">&#10094;</a> //이전 이미지를 불러올떄 쓰는것//
+				<a class="image-next" id="imageNext">&#10095;</a> // 다음이미지//
+
+				<div class="dots">
+					<span class="dot" id="firstDot"></span>
+					<span class="dot" id="secondDot"></span>
+					<span class="dot" id="thirdDot"></span>
+					<span class="dot" id="forthDot"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
 		<section class="about-area" id="about">
 			<div class="title">
 				About
@@ -243,6 +272,6 @@
 		</div>
 	</div>
 
-
+	<script src="1.js"></script>
 </body>
 </html>
